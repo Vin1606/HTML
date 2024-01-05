@@ -1,0 +1,250 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+.background-artikel-1 {
+    padding: 0 50px 0px 50px;
+}
+
+.background-gambar-artikel {
+    padding: 300px 950px 0 30px;
+    background-image: url(gambar/covid-19.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-text {
+    padding: 40px 100px 40px 20px;
+    background-color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.background-pilihan {
+    padding: 50px 50px 100px 70px;
+}
+
+.box-ringkasan {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ringkasan-text {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 20px 25px 20px;
+    width: 200px;
+    text-align: center;
+    border-bottom: 4px solid rgb(206, 206, 206);
+}
+
+.ringkasan-text a {
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+}
+
+.ringkasan-text:hover {
+    background-color: rgb(15, 81, 250);
+    color: white;
+    cursor: pointer;
+}
+
+.ringkasan-text a:hover {
+    color: white;
+}
+
+.pencegahan-text {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 20px 25px 20px;
+    width: 200px;
+    text-align: center;
+    border-bottom: 4px solid rgb(206, 206, 206);
+}
+
+.pencegahan-text:hover {
+    background-color: rgb(15, 81, 250);
+    color: white;
+    cursor: pointer;
+}
+
+.pencegahan-text a {
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+}
+
+.pencegahan-text a:hover {
+    color: white;
+}
+
+.gejala-text {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 20px 25px 20px;
+    width: 200px;
+    text-align: center;
+    border-bottom: 4px solid blue;
+}
+
+.gejala-text a {
+    text-decoration: none;
+    color: rgb(0, 191, 255);
+}
+
+.gejala-text a:hover {
+    color: white;
+}
+
+.gejala-text:hover {
+    background-color: rgb(15, 81, 250);
+    cursor: pointer;
+}
+
+.box-artikel-text {
+    padding: 10px 20px;
+}
+
+.artikel-pencegahan-text {
+    font-size: 22px;
+    width: 1000px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.background-footer {
+    padding: 20px 250px 20px 250px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    background-color: black;
+    display: flex;
+
+}
+
+.footer-body {
+    padding: 0
+}
+
+.box-kontak,
+.box-quick-menu,
+.background-footer-sosial {
+    padding: 20px 100px;
+    font-size: 22px;
+}
+
+.box-quick-menu {
+    padding: 20px 70px 0 10px;
+    font-size: 22px;
+    width: 200px;
+}
+
+.box-alamat {
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    width: 300px;
+}
+
+
+.maps {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    padding: 20px 0 20px 0;
+    border: none;
+}
+
+.footer-keterangan-quick_menu {
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer-keterangan-quick_menu li {
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid orange;
+}
+
+.footer-keterangan-quick_menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.footer-keterangan-quick_menu a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.footer-keterangan-quick_menu li:hover {
+    background-color: blue;
+}
+
+.background-footer-sosial {
+    padding: 0;
+    width: 300px;
+}
+
+.footer-sosial-media {
+    padding: 20px 60px;
+    font-size: 20px;
+}
+
+.footer-sosial-media li {
+    list-style: none;
+}
+
+.footer-sosial-media a {
+    color: white;
+}
+
+.facebook-media,
+.twiter-media,
+.instagram-media,
+.youtube-media {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+    border: 1px solid orange;
+}
+
+.facebook-media:hover {
+    background-color: blue;
+}
+
+.twiter-media:hover {
+    background-color: rgb(7, 171, 225);
+}
+
+.instagram-media:hover {
+    background-color: rgb(126, 31, 135);
+}
+
+.youtube-media:hover {
+    background-color: red;
+}
+
+.logo-facebook,
+.logo-twiter,
+.logo-instagram,
+.logo-youtube {
+    padding: 0px 10px 0 0;
+}
+
+.background-copyright {
+    padding: 20px 0 20px 0;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+}

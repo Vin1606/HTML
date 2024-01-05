@@ -1,0 +1,8 @@
+Untuk Menjalankan Web nya
+
+1. Nyalakan Xampp (nyalakan Apache dan Mysql)
+2. Masukan Database ke PHP MY Admin, nama database 'user_db'
+3. Lalu jalankan di browser dengan mengetik localhost/website/index.php
+4. Setelah Masuk di Home harap login terlebih dahulu
+5. Jika Ada Kesalahan dalam project yang kami buat, kami mohon maaf karena kami masih belajar untuk membuatnya
+6. Web ini tidak bisa ditampilkan di layar HP

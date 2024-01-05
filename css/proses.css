@@ -1,0 +1,273 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+.background-header {
+    padding: 70px 400px;
+    background-color: rgb(47, 7, 7);
+    background-image: linear-gradient(to left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.6)),
+        url(gambar/header-home-login.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header {
+    padding: 70px 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    background-image: linear-gradient(to left,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.6)),
+        url(gambar/header.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.background-pendaftaran {
+    padding: 70px 50px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.background-kalimat-peringatan {
+    color: white;
+    padding: 70px 50px 0 90px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.kalimat-peringatan {
+    border: 3px solid orange;
+    padding: 30px 170px;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.kalimat-peringatan:hover {
+    background-color: green;
+    border-radius: 50px;
+}
+
+.background-daftar-ulang {
+    padding: 25px 0 5px 0;
+    text-align: center;
+}
+
+.background-daftar-ulang a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.background-daftar-ulang a:hover {
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.background-text {
+    padding: 100px 300px;
+    text-align: center;
+    background-image: linear-gradient(to left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.6)),
+        url(gambar/header-home-login.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-text-body {
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    padding: 70px 10px;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.background-footer {
+    padding: 20px 250px 20px 250px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    background-color: black;
+    display: flex;
+
+}
+
+.footer-body {
+    padding: 0
+}
+
+.box-kontak,
+.box-quick-menu,
+.background-footer-sosial {
+    padding: 20px 100px;
+    font-size: 22px;
+}
+
+.box-quick-menu {
+    padding: 20px 70px 0 10px;
+    font-size: 22px;
+    width: 200px;
+}
+
+.box-alamat {
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    width: 300px;
+}
+
+
+.maps {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    padding: 20px 0 20px 0;
+    border: none;
+}
+
+.footer-keterangan-quick_menu {
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer-keterangan-quick_menu li {
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid orange;
+}
+
+.footer-keterangan-quick_menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.footer-keterangan-quick_menu a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.footer-keterangan-quick_menu li:hover {
+    background-color: blue;
+}
+
+.background-footer-sosial {
+    padding: 0;
+    width: 300px;
+}
+
+.footer-sosial-media {
+    padding: 20px 60px;
+    font-size: 20px;
+}
+
+.footer-sosial-media li {
+    list-style: none;
+}
+
+.footer-sosial-media a {
+    color: white;
+    text-decoration: none;
+}
+
+.facebook-media,
+.twiter-media,
+.instagram-media,
+.youtube-media {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+    border: 1px solid orange;
+}
+
+.facebook-media:hover {
+    background-color: blue;
+}
+
+.twiter-media:hover {
+    background-color: rgb(7, 171, 225);
+}
+
+.instagram-media:hover {
+    background-color: rgb(126, 31, 135);
+}
+
+.youtube-media:hover {
+    background-color: red;
+}
+
+.logo-facebook,
+.logo-twiter,
+.logo-instagram,
+.logo-youtube {
+    padding: 0px 10px 0 0;
+}
+
+.background-copyright {
+    padding: 20px 0 20px 0;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.background-text-body::before {
+    content: '';
+    background: linear-gradient(90deg, rgba(0, 1, 255, 1) 0%, rgba(0, 194, 212, 1) 50%, rgba(255, 0, 0, 1) 100%);
+    animation: animasi 5s linear infinite;
+    position: absolute;
+    width: 1200px;
+    height: 50%;
+}
+
+.background-text-body::after {
+    content: '';
+    position: absolute;
+    inset: 7px;
+    background: black;
+    border-radius: 16px;
+
+}
+
+.background-text-body span {
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+@keyframes animasi {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}

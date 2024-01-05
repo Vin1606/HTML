@@ -1,0 +1,727 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+.background-header {
+    text-align: left;
+    padding: 50px 10px;
+}
+
+.header {
+    padding: 10px 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+}
+
+.logo-email {
+    font-size: 20px;
+    border-radius: 100%;
+    border: 3px solid orange;
+    padding: 10px 10px;
+}
+
+.email {
+    padding: 20px 10px 0 70px;
+}
+
+.email-text {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.telpon {
+    padding: 20px 10px 0 70px;
+}
+
+.logo-telpon {
+    font-size: 20px;
+    border-radius: 100%;
+    border: 3px solid orange;
+    padding: 10px 10px;
+}
+
+.telpon-text {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.login {
+    padding: 30px 0 30px 300px;
+    font-size: 20px;
+}
+
+.login-text {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: green;
+    font-weight: 500;
+}
+
+.login-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.login-text:hover {
+    background-color: black;
+}
+
+.navbar-background {
+    padding: 40px 10px;
+    font-size: 20px;
+    background-color: orange;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    padding: 0 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    color: white;
+    font-weight: 600;
+}
+
+.logo-rumah,
+.logo-layanan,
+.logo-artikel,
+.logo-tentang {
+    padding: 0 10px 0 70px;
+}
+
+.background-gambar-slider {
+    background-color: black;
+}
+
+.gambar-slider img {
+    width: 100%;
+    background-color: black;
+}
+
+.background-layanan-kami {
+    padding: 50px 700px 35px 700px;
+    text-align: center;
+    background-color: black;
+}
+
+.tentang-kami-text {
+    border: 4px dashed orange;
+    padding: 30px 0;
+    font-size: 25px;
+
+}
+
+.background-informasi-puskesmas {
+    padding: 30px 50px 200px 50px;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.isi-puskesmas img {
+    width: 650px;
+    height: 500px;
+}
+
+.text-puskesmas {
+    padding: 0 200px 0 50px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.background-icon-atas {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 14px 0 0 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.background-icon-bawah {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 0 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.background-logo-icon-waktu,
+.background-logo-icon-orang,
+.background-logo-icon-medical,
+.background-logo-icon-bintang,
+.background-logo-icon-obat,
+.background-logo-icon-money {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-waktu,
+.logo-orang,
+.logo-medical,
+.logo-bintang,
+.logo-obat,
+.logo-uang {
+    padding: 0 0 20px 0;
+}
+
+.text-layanan {
+    font-size: 18px;
+}
+
+.background-gawat-darurat {
+    padding: 60px 650px 15px 650px;
+    background-color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.gawat-darurat-text {
+    padding: 30px 0;
+    border: 2px solid orange;
+}
+
+.background-peringatan {
+    padding: 30px 10px 10px 10px;
+    background-color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.background-kontak {
+    background-color: white;
+    font-size: 23px;
+    padding: 0 10px 50px 10px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo-wa {
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.wa-text {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.wa-text:hover {
+    color: red;
+}
+
+.background-footer {
+    padding: 20px 250px 20px 250px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    background-color: black;
+    display: flex;
+
+}
+
+.footer-body {
+    padding: 0
+}
+
+.box-kontak,
+.box-quick-menu,
+.background-footer-sosial {
+    padding: 20px 100px;
+    font-size: 22px;
+}
+
+.box-quick-menu {
+    padding: 20px 70px 0 10px;
+    font-size: 22px;
+    width: 200px;
+}
+
+.box-alamat {
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    width: 300px;
+}
+
+
+.maps {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    padding: 20px 0 20px 0;
+    border: none;
+}
+
+.footer-keterangan-quick_menu {
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer-keterangan-quick_menu li {
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid orange;
+}
+
+.footer-keterangan-quick_menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.footer-keterangan-quick_menu a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.footer-keterangan-quick_menu li:hover {
+    background-color: blue;
+}
+
+.background-footer-sosial {
+    padding: 0;
+    width: 300px;
+}
+
+.footer-sosial-media {
+    padding: 20px 60px;
+    font-size: 20px;
+}
+
+.footer-sosial-media li {
+    list-style: none;
+}
+
+.footer-sosial-media a {
+    color: white;
+    text-decoration: none;
+}
+
+.facebook-media,
+.twiter-media,
+.instagram-media,
+.youtube-media {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+    border: 1px solid orange;
+}
+
+.facebook-media:hover {
+    background-color: blue;
+}
+
+.twiter-media:hover {
+    background-color: rgb(7, 171, 225);
+}
+
+.instagram-media:hover {
+    background-color: rgb(126, 31, 135);
+}
+
+.youtube-media:hover {
+    background-color: red;
+}
+
+.logo-facebook,
+.logo-twiter,
+.logo-instagram,
+.logo-youtube {
+    padding: 0px 10px 0 0;
+}
+
+.background-copyright {
+    padding: 20px 0 20px 0;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    body {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100vw;
+        margin: 0;
+    }
+
+    .background-header {
+        padding: 10px 10px;
+        background: black;
+    }
+
+    .header {
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .logo {
+        width: 210px;
+        height: 80px;
+        padding: 10px 50px 40px 50px;
+    }
+
+    .email {
+        font-size: 15px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .logo-email {
+        font-size: 13px;
+    }
+
+    .email-text {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        text-align: center;
+        padding: 10px 0 40px 0;
+    }
+
+    .telpon {
+        font-size: 15px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .logo-telpon {
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+
+    .telpon-text {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        text-align: center;
+        padding: 10px 0 40px 0;
+    }
+
+    .login {
+        text-align: center;
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .login-text {
+        padding: 10px 30px;
+        border-radius: 10px;
+        background-color: green;
+        font-weight: 500;
+    }
+
+    .login-text a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .login-text:hover {
+        background-color: black;
+    }
+
+    .navbar-background {
+        padding: 15px 0;
+        font-size: 8px;
+        background-color: orange;
+    }
+
+    .navbar {
+        display: flex;
+        list-style-type: none;
+        padding: 0 12px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .navbar a:hover {
+        color: white;
+    }
+
+    .logo-rumah,
+    .logo-layanan,
+    .logo-artikel,
+    .logo-tentang {
+        padding: 0 5px 0 20px;
+    }
+
+    .background-gambar-slider,
+    .gambar-slider img {
+        background-color: black;
+        width: 100%;
+        height: 150px;
+    }
+
+    .background-layanan-kami {
+        padding: 40px 120px 30px 120px;
+        text-align: center;
+        background-color: black;
+    }
+
+    .tentang-kami-text {
+        border: 2px dashed orange;
+        padding: 15px 0;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .background-informasi-puskesmas {
+        padding: 10px 0 0 0;
+        display: flex;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .isi-puskesmas img {
+        width: 180px;
+        height: 200px;
+    }
+
+    .text-puskesmas {
+        padding: 10px 20px 0 20px;
+        text-align: justify;
+        line-height: 15px;
+        font-size: 10px;
+    }
+
+    .background-icon-atas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px 80px 0px 80px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .background-icon-bawah {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0px 80px 30px 80px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .background-logo-icon-waktu,
+    .background-logo-icon-orang,
+    .background-logo-icon-medical,
+    .background-logo-icon-bintang,
+    .background-logo-icon-obat,
+    .background-logo-icon-money {
+        padding: 5px 0px 40px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-waktu,
+    .logo-orang,
+    .logo-medical,
+    .logo-bintang,
+    .logo-obat,
+    .logo-uang {
+        padding: 5px 0 5px 0;
+    }
+
+    .text-layanan {
+        font-size: 10px;
+    }
+
+    .background-gawat-darurat {
+        padding: 30px 130px 15px 130px;
+        background-color: white;
+        font-size: 12px;
+    }
+
+    .gawat-darurat-text {
+        padding: 10px;
+        border: 2px solid orange;
+    }
+
+    .background-peringatan {
+        padding: 0 10px 10px 10px;
+        background-color: white;
+        font-size: 10px;
+    }
+
+    .background-kontak {
+        background-color: white;
+        font-size: 10px;
+        padding: 0 10px 30px 10px;
+        font-weight: 600;
+    }
+
+    .logo-wa {
+        padding: 0 5px;
+        font-size: 10px;
+    }
+
+    .wa-text {
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
+    }
+
+    .wa-text:hover {
+        color: red;
+    }
+
+    .background-footer {
+        padding: 20px 0 20px 0;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-body {
+        padding: 0 35px;
+    }
+
+    .box-kontak,
+    .box-quick-menu,
+    .background-footer-sosial {
+        padding: 25px 0;
+        font-size: 14px;
+    }
+
+    .box-alamat {
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+        width: auto;
+    }
+
+    .box-quick-menu {
+        padding: 20px 150px;
+        font-size: 14px;
+        width: auto;
+    }
+
+    .maps {
+        width: 200px;
+        height: 200px;
+        align-self: center;
+        padding: 5px 0 10px 0;
+        border: none;
+    }
+
+    .footer-keterangan-quick_menu {
+        list-style: none;
+    }
+
+    .footer-keterangan-quick_menu li {
+        padding: 0;
+        margin: 10px 0;
+        border: 1px solid orange;
+    }
+
+    .footer-keterangan-quick_menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    .footer-keterangan-quick_menu a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+
+    .background-footer-sosial {
+        padding: 0;
+        align-self: center;
+    }
+
+    .footer-sosial-media {
+        padding: 10px 80px;
+        font-size: 14px;
+    }
+
+    .footer-sosial-media li {
+        list-style: none;
+    }
+
+    .footer-sosial-media a {
+        color: white;
+    }
+
+    .facebook-media,
+    .twiter-media,
+    .instagram-media,
+    .youtube-media {
+        padding: 15px 30px;
+        display: flex;
+        justify-content: left;
+        text-align: center;
+        font-size: 10px;
+        margin: 10px 0;
+        border: 1px solid orange;
+    }
+
+    .facebook-media:hover {
+        background-color: blue;
+    }
+
+    .twiter-media:hover {
+        background-color: rgb(7, 171, 225);
+    }
+
+    .instagram-media:hover {
+        background-color: rgb(126, 31, 135);
+    }
+
+    .youtube-media:hover {
+        background-color: red;
+    }
+
+    .logo-facebook,
+    .logo-twiter,
+    .logo-instagram,
+    .logo-youtube {
+        padding: 0px 10px 0 0;
+    }
+
+    .background-copyright {
+        padding: 20px 0 20px 0;
+        color: black;
+        font-size: 10px;
+        background-color: white;
+    }
+}
